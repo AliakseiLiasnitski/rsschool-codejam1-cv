@@ -132,6 +132,19 @@ section{
 }
 
 
+.img-dp{
+    padding: 40px 80px 20px 80px;
+}
+
+.img-dp > img{
+    width: 100%;
+}
+
+.com-for-img{
+    text-align: center;
+}
+
+
 /* Skills section*/
 .container-section-skills{
     display: flex;
