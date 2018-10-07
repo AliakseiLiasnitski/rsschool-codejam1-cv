@@ -2,3 +2,100 @@
     margin: 0;
     padding: 0;
 }
+
+.main-container{
+    max-width: 1024px;
+    margin: auto;
+    font-family: 'Noto Serif', serif;
+}
+
+
+
+header{
+    display: flex;
+}
+
+.basic-info{
+    flex: 1;
+    position: relative;
+    background-color: #62a068;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+
+.name-and-sname{
+    font-size: 1.75em;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    padding-bottom: 20px;
+}
+
+
+.my-contacts{
+    padding: 20px 0px;
+}
+
+.my-contacts i{
+    margin-right: 20px;
+}
+
+
+
+.sn-link{
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.sn-link > i{
+    font-size: 1.75em;
+    padding: 3px 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.sn-link > i:hover{
+    background-color: #fff;
+}
+
+
+
+.fa-github:hover{
+    color: #000;
+}
+
+
+.fa-vk:hover{
+    color: #4a76a8;
+}
+
+.fa-instagram:hover{
+    color: #cc0ea3;
+}
+
+
+
+.basic-info::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    top: 0;
+    right: -100px;
+    border-right: 100px solid transparent;
+    border-bottom: 283.516px solid #62a068;
+}
+
+
+
+.div-for-img{
+    width: 30%;
+    font-size: 0;
+}
+
+.div-for-img > img{
+    width: 100%;
+}
+
