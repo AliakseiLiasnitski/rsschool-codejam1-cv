@@ -11,6 +11,8 @@
 
 
 
+
+/* Header section */
 header{
     display: flex;
 }
@@ -100,6 +102,9 @@ header{
 }
 
 
+
+
+/* For all sections */
 section{
     padding: 50px;
     background-color: #f9f9f9;
@@ -116,6 +121,9 @@ section{
     padding: 20px;
 }
 
+
+
+/* Skills section*/
 .container-section-skills{
     display: flex;
     flex-wrap: wrap;
