@@ -122,6 +122,15 @@ section{
 }
 
 
+.white-section{
+    background-color: #fdfdfd;
+}
+
+.green-span{
+    color: #62a068;
+    font-weight: bold;
+}
+
 
 /* Skills section*/
 .container-section-skills{
